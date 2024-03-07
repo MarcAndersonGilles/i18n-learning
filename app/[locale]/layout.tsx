@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode,
   params: {locale:string}
 }>) {
-  console.log(locale)
+
   return (
     <html lang={locale}>
       <body className={inter.className}>{children}</body>
